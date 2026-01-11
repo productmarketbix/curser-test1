@@ -13,3 +13,9 @@ food = ["pizza", "hamburger", "hotdog"]
 for food in food:
     print("I like",food)
 
+age = 20
+if age>= 18: 
+    print("You are an adult")
+    else:
+        print("You are a minor")
+        
