@@ -30,4 +30,40 @@ for foods in food:
     else:
         print("I found",foods,"in the list instead")
 
+def introduce(name):
+    print ("Hello,",name,"!")
+introduce("Cal")
+introduce("John")
+
+def favorite_food(food1):
+    print("I love",food1)
+
+favorite_food("Pizza")
+favorite_food("Sushi")
+favorite_food("Chocolate")
+
+import random
+foods = random.choice(food)
+print("I like",foods,"!") 
+
+food.append("sushi")
+
+def favorite_food(foods):
+    print ("I love",foods)
+
+for foods in food: 
+    favorite_food(foods)
+
+picked_food = random.choice(food)
+print("AI picked",picked_food,"for me")
+
+activities = ["Reading", "Coding", "Gaming", "Walking"]
+
+def recommended_activity(activity_list):
+    choice = random.choice(activity_list)
+    print("AI recommends:",choice)
+
+recommended_activity(activities)
+
+
 
